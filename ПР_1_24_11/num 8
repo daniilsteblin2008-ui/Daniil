@@ -1,0 +1,11 @@
+i = 0
+b = 0
+m = int(input())
+while m != 0:
+    if m > i:
+        b = i
+        i = m
+    elif m > b:
+        b = m
+    m = int(input())
+print(b)
