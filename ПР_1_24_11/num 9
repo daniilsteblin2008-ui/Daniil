@@ -1,0 +1,11 @@
+i = int(input())
+a = 0
+maxi = i
+while i !=0:
+  if maxi == i:
+    a +=1
+  elif maxi <i:
+    a = 1
+    maxi = i
+  i = int(input())
+print(a)
