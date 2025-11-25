@@ -1,0 +1,10 @@
+i = int(input())
+a = 0
+if i != 0:
+    count = int(input())
+    while count != 0:
+        if count > i:
+            a += 1
+        i = count
+        count = int(input())
+print(a)
