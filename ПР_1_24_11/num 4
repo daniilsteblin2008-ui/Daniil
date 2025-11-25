@@ -1,0 +1,4 @@
+i = 11
+While i < 30:
+  print(i**2)
+  i += 2
